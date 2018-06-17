@@ -10,6 +10,8 @@
     margin-top: 80px;
 }
 
+
+
 footer {
     text-align: center;
     font-weight: 300;
@@ -28,6 +30,9 @@ h3,
 h4 {
     font-family: 'Roboto', Helvetica, Arial, serif;
     font-weight: 400;
+}
+.navbar-default {
+    background-color: #045a8d;
 }
 
 .about {
@@ -131,7 +136,7 @@ td.news_title {
 
 td .news_hl {
     font-weight: 400;
-    color: steelblue;
+    color: #2b8cbe;
 }
 
 tr.table_item td {
@@ -142,15 +147,15 @@ tr.table_item td {
 .main a:visited,
 .main a:hover,
 .main a:active {
-    color: steelblue;
+    color: #2b8cbe;
     text-decoration: none;
-    border-bottom: 1px steelblue dotted;
+    border-bottom: 1px #2b8cbe dotted;
 }
 
 .main a:hover {
-    color: darkblue;
+    color: #253494;
     text-decoration: none;
-    border-bottom: 1px darkblue dotted;
+    border-bottom: 1px #253494 dotted;
 }
 
 a:focus {
