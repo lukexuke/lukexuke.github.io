@@ -201,8 +201,8 @@ if __name__ == "__main__":
     # the dataset can be applied and downloaded from Computing Systems Data - Webscope | Yahoo Labs: 
     # https://webscope.sandbox.yahoo.com/catalog.php?datatype=s&did=70&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAL76RvrHQjQExhbd3oCp6gu_FnGGq3QEiem2Yf9UkCozMeQp04F81WbwAsS61RcmttY_fE611kM3t6pkZiqTYKWPGKya6FunpSP7iKR_D9DQBMLjTRwDotlOREth9Mfj1TDPC5RvdFPG96I6pfuBtzk1yo-pQHR9fTOoEwPSukdL&_guc_consent_skip=1561065476
 
-    #a demo dataset can be downloaded from: https://drive.google.com/file/d/1ok8cK_B2FJgA1UWE3YiV6eAncROwxpw0/view?usp=sharing
-    filepath = "A1benchmark/real_1"
+    # a sample dataset can be downloaded from: https://drive.google.com/file/d/1ok8cK_B2FJgA1UWE3YiV6eAncROwxpw0/view?usp=sharing
+    filepath = "real_1"
     filename = filepath + ".csv"
     file = pd.read_csv(filename, index_col="timestamp")
     x = file.iloc[:, 0]
