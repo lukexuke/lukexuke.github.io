@@ -254,5 +254,13 @@ span.pub_award a:hover {
     }
 }
 
+.hiring {
+    background: #ffffee;
+    color:red;
+    font-size: 17px;
+    border: 1px solid #c0c0c0;
+    padding: 0.3em 0.5em;
+}
+
 
 
