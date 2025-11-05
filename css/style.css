@@ -31,6 +31,9 @@ h4 {
     font-family: 'Roboto', Helvetica, Arial, serif;
     font-weight: 400;
 }
+
+
+  
 .navbar-default {
     background-color: #045a8d;
 }
@@ -38,6 +41,8 @@ h4 {
 .about {
     font-size: 15px;
 }
+
+
 
 .l {
     font-weight: 300 !important;
@@ -201,6 +206,21 @@ th.course, td.course{
     color: #253494;
     text-decoration: none;
     border-bottom: 1px #253494 dotted;
+}
+
+.about a,
+.about a:link,
+.about a:visited,
+.about a:active {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: none;
+}
+
+.about a:hover {
+    color: #2b8cbe;
+    text-decoration: none;
+    border-bottom: 1px #2b8cbe dotted;
 }
 
 a:focus {
