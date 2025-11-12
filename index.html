@@ -712,6 +712,12 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
+    <script>
+        // 点击导航链接后自动关闭菜单（仅移动端）
+        $(document).on('click', '.navbar-collapse.in a:not([data-toggle])', function() {
+          $('.navbar-collapse.in').collapse('hide');
+        });
+      </script>
 </body>
 
 </html>
