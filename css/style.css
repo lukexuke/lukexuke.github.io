@@ -25,7 +25,7 @@
     .about img {
       height: auto;
       max-width: 50%;
-      max-height: 180px;    /* 限制最高不超过 180px */
+      max-height: 250px;    /* 限制最高不超过 180px */
       float: none;
       margin: 0 auto 15px auto;
       display: block;
@@ -36,7 +36,7 @@
   @media screen and (max-width: 576px) {
     .about img {
       max-width: 40%;
-      max-height: 140px;    /* 限制最高不超过 140px */
+      max-height: 250px;    /* 限制最高不超过 140px */
     }
   }
 .main {
