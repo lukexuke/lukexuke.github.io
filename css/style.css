@@ -12,10 +12,11 @@
 
 /* 桌面端：保持原样 */
 .about img {
-    height: 280px;
+    height: 305px;
     float: left;
     margin-right: 25px;
-    margin-bottom: 25px;
+    margin-bottom: 5px;
+    margin-top: 2px;
     border-radius: 6px;
   }
   
