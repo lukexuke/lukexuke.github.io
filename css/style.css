@@ -10,12 +10,34 @@
     width: 100%;
 }
 
-
-/* img {
-    max-width: 100%;
-    height: auto;
-} */
-
+/* 桌面端：保持原样 */
+.about img {
+    height: 280px;
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    border-radius: 6px;
+  }
+  
+  /* 平板端 */
+  @media screen and (max-width: 992px) {
+    .about img {
+      height: auto;
+      max-width: 50%;
+      max-height: 180px;    /* 限制最高不超过 180px */
+      float: none;
+      margin: 0 auto 15px auto;
+      display: block;
+    }
+  }
+  
+  /* 手机上再小一档 */
+  @media screen and (max-width: 576px) {
+    .about img {
+      max-width: 40%;
+      max-height: 140px;    /* 限制最高不超过 140px */
+    }
+  }
 .main {
     margin-top: 80px;
 }
@@ -299,7 +321,7 @@ span.pub_award a:hover {
     }
     .navbar .nav > li {
         display: block;
-        text-align: center;
+        text-align: left;
         margin: 10px 0;
     }
 }
@@ -312,7 +334,7 @@ span.pub_award a:hover {
         font-size: 14px;
     }
     .about {
-        text-align: center;
+        text-align: left;
     }
     .about img {
         float: none;
@@ -337,5 +359,7 @@ span.pub_award a:hover {
         font-size: 12px;
     }
 }
+
+
 
 
