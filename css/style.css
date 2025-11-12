@@ -1,10 +1,20 @@
 .container {
-    width: 900px;
+    max-width: 900px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 
 .about {
-    width: 820px;
+    max-width: 820px;
+    width: 100%;
 }
+
+
+/* img {
+    max-width: 100%;
+    height: auto;
+} */
 
 .main {
     margin-top: 80px;
@@ -282,5 +292,50 @@ span.pub_award a:hover {
     padding: 0.3em 0.5em;
 }
 
+/* ---------- 小屏幕适配 ---------- */
+@media screen and (max-width: 992px) {
+    .navbar {
+        display: block;
+    }
+    .navbar .nav > li {
+        display: block;
+        text-align: center;
+        margin: 10px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main {
+        margin-top: 60px;
+    }
+    body {
+        font-size: 14px;
+    }
+    .about {
+        text-align: center;
+    }
+    .about img {
+        float: none;
+        margin: 0 auto 15px auto;
+        display: block;
+    }
+    .pub img {
+        float: none;
+        margin: 0 auto 10px auto;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h3 {
+        font-size: 20px;
+    }
+    .pub_title {
+        font-size: 14px;
+    }
+    footer {
+        font-size: 12px;
+    }
+}
 
 
