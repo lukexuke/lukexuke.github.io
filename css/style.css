@@ -275,6 +275,11 @@ a.anchor {
     visibility: hidden;
 }
 
+/* Keep the Teaching section near the viewport center when following its link. */
+a.anchor#teach {
+    top: calc(110px - 50vh);
+}
+
 span.pub_award a:link,
 span.pub_award a:visited,
 span.pub_award a:hover,
